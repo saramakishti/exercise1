@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.landing-section {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url('./images/image-01.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.landing-content {
+  text-align: center;
+}
+
+.landing-content h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.landing-content button {
+  background-color: blue;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+}
